@@ -26,6 +26,7 @@
             Console.WriteLine($"Sum={sumValue}");
             Console.WriteLine($"Vector Invers={string.Join(", ", vectorInvers)}");
             Console.WriteLine($"Frecventa numarului {frecventa} este: {countfrecventa} ");
+            Console.ReadLine();  //doar ca sa opresc terminalul
         }
     }
 }
